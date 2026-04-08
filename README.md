@@ -1,22 +1,85 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get **React** working in **Vite** with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **@vitejs/plugin-react** → uses **Babel** (or **oxc** when used in rolldown-vite) for Fast Refresh
+* **@vitejs/plugin-react-swc** → uses **SWC** for Fast Refresh
+
+---
 
 ## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is **not enabled** in this template because it can impact development and build performance.
 
-## Expanding the ESLint configuration
+If you want to enable it, check the official documentation:
+👉 [https://react.dev/learn/react-compiler/installation](https://react.dev/learn/react-compiler/installation)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
+## Expanding the ESLint Configuration
 
-<img width="2384" height="4938" alt="localhost_5173_" src="https://github.com/user-attachments/assets/3aaa7bcb-9e6e-4192-a2b5-f5edbae6418e" />
-<img width="2384" height="3148" alt="localhost_5173_ (1)" src="https://github.com/user-attachments/assets/eb0a89cd-e710-4b80-bffa-2881078be34d" />
-<img width="2384" height="5936" alt="localhost_5173_ (2)" src="https://github.com/user-attachments/assets/78b89e6b-b7d3-4fef-b3d1-d65081774443" />
-<img width="2384" height="3050" alt="localhost_5173_ (3)" src="https://github.com/user-attachments/assets/938a8f11-986d-4316-812f-b26e2f58f35a" />
+If you are developing a **production-level application**, it is recommended to use **TypeScript** with **type-aware lint rules** enabled.
+
+Check out the official TypeScript template:
+👉 [https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
+
+---
+
+## 📸 Preview
+
+Below is the preview of the application interface:
+
+<div align="center">
+
+<img src="https://github.com/user-attachments/assets/3aaa7bcb-9e6e-4192-a2b5-f5edbae6418e" width="24%" />
+<img src="https://github.com/user-attachments/assets/eb0a89cd-e710-4b80-bffa-2881078be34d" width="24%" />
+<img src="https://github.com/user-attachments/assets/78b89e6b-b7d3-4fef-b3d1-d65081774443" width="24%" />
+<img src="https://github.com/user-attachments/assets/938a8f11-986d-4316-812f-b26e2f58f35a" width="24%" />
+
+</div>
+
+---
+
+## 🚀 Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## ✨ Tech Stack
+
+* React
+* Vite
+* ESLint
+
+---
+
+## 📌 Notes
+
+This project is configured for **fast development workflow** with Hot Module Replacement (HMR) enabled by default.
+
+You can extend the configuration anytime depending on project needs (TypeScript, Zustand, Tailwind, API integration, etc.).
